@@ -28,5 +28,9 @@ h2{
     width: 200px;
     height: 200px;
     margin: 10px auto;
+    border: 2px solid pink;
+    border-radius: 100px 75px;
+
 }
+
 
