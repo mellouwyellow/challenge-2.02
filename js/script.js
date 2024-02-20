@@ -12,14 +12,19 @@ $(document). ready(function() {
     
     //box animation//
     $("#box").click(function(){
-    $(".oval").addClass("animate-box");
+    $(".square").addClass("animate-box");
     setTimeout(function() {
-        $(".oval").removeClass("animate-box");  
+        $(".square").removeClass("animate-box");  
        } , 5000);
        
        });
     
-
+       $("#name").click(function(){
+        $("#box").css("background-color", "royalblue")
+        $("#box").css("border", "1px solid color")
+        $("#box").css("border-radius", "50%")
+    });
+    
     
   
         

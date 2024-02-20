@@ -3,9 +3,6 @@ h1{
     color: palevioletred;
 }
 
-h2{
-    color: darkorchid;
-}
 
 *{
     margin: 0;
@@ -33,4 +30,10 @@ h2{
 
 }
 
+#name{
+    color: darkorchid;
+}
+.animate-box{
+    animation: 5s;
+}
 
