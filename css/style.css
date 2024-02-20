@@ -36,13 +36,6 @@ h1{
 
 }
 
-#gif{
-    position: absolute;
-    width: 200px;
-    left: 100px;
-    margin-top: 150px;
-}
-
 
 .animate-box{
     animation: test 5s;
@@ -51,8 +44,16 @@ h1{
 
 @keyframes test{
     0%   { left: 0px; top: 0px;}
-    25%  { left: 100px; top: 0px;}
-    50%  { left: 100px; top: 25px;}
+    25%  { left: 150px; top: 0px;}
+    50%  { left: 150px; top: 25px;}
     75%  { left: 0px; top: 25px;}
     100% { left: 0px; top: 0px;}
+}
+
+#gif{
+    position: absolute;
+width: 150px;
+    left: 100px;
+    margin-top: 200px;
+
 }

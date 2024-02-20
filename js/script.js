@@ -28,6 +28,7 @@ $(document). ready(function() {
         $("#box").css("border-radius", "50%")
     });
     
+    //gif takes you back to home page//
     $("#gif").click(function(){
         $("#box").hide();
         $("#box").css("background-color", "violet")
