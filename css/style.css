@@ -3,6 +3,10 @@ h1{
     color: palevioletred;
 }
 
+h2{
+    color: darkorchid;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +15,18 @@ h1{
 #home-screen{
     width: 100vw;
     height: 100vh;
-    background-color: azure;
+    background-color: mistyrose;
     text-align: center;
 }
 
 #welcome-text{
     padding-top: 2%;
 }
+
+#box{
+    background-color:violet;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
