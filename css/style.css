@@ -52,8 +52,10 @@ h1{
 
 #gif{
     position: absolute;
-width: 150px;
+    width: 150px;
+    bottom: 8px;
     left: 100px;
+    right: 50px;
     margin-top: 200px;
 
 }
