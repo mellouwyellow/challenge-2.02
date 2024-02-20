@@ -25,15 +25,36 @@ h1{
     width: 200px;
     height: 200px;
     margin: 10px auto;
-    border: 2px solid pink;
+    border: 2px solid salmon;
     border-radius: 100px 75px;
-
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
 }
 
 #name{
     color: darkorchid;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
 }
+
+#gif{
+    position: absolute;
+    width: 200px;
+    left: 100px;
+    margin-top: 150px;
+}
+
 .animate-box{
     animation: 5s;
 }
 
+@keyframes myfirst {
+    0%   { left: 0px; top: 0px;}
+    25%  { left: 100px; top: 0px;}
+    50%  { left: 100px; top: 25px;}
+    75%  { left: 0px; top: 25px;}
+    100% { left: 0px; top: 0px;}
+
+
+}
